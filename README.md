@@ -80,20 +80,20 @@ On top of the raw data, **business enrichment** gets you sales-ready contacts: v
 To use this tool, ensure you have **Google Chrome** installed. Then download for your OS:
 
 **For Mac:**
-- [Download the Mac Version](https://google-maps-extractor-omkar-cloud.s3.amazonaws.com/Google+Maps+Extractor.dmg)
+- [Download the Mac Version](https://www.omkar.cloud/l/mac)
 - We are a verified publisher with Apple, so you can install it without facing any issues.
 
 **For Windows:**
-- [Download the Windows Version](https://google-maps-extractor-omkar-cloud.s3.amazonaws.com/Google+Maps+Extractor.exe)
+- [Download the Windows Version](https://www.omkar.cloud/l/win)
 - You'll see a popup saying that Windows Defender blocked an app from an **unknown publisher**. It's the most popular Google Maps scraper on GitHub, with 2.8K+ stars, and is completely safe to use.
 
 You may also see a Windows Firewall popup—click **Allow Access** to continue.
 
 **For Ubuntu/Debian:**
-- [Download .deb](https://google-maps-extractor-omkar-cloud.s3.amazonaws.com/Google+Maps+Extractor-amd64.deb) ([arm64 version](https://google-maps-extractor-omkar-cloud.s3.amazonaws.com/Google+Maps+Extractor-arm64.deb))
+- [Download .deb](https://www.omkar.cloud/l/deb) ([arm64 version](https://www.omkar.cloud/l/deb-arm))
 
 **For Fedora/CentOS/Red Hat:**
-- [Download .rpm](https://google-maps-extractor-omkar-cloud.s3.amazonaws.com/Google+Maps+Extractor-x86_64.rpm) ([aarch64 version](https://google-maps-extractor-omkar-cloud.s3.amazonaws.com/Google+Maps+Extractor-aarch64.rpm))
+- [Download .rpm](https://www.omkar.cloud/l/rpm) ([aarch64 version](https://www.omkar.cloud/l/rpm-arm))
 
 Then enter your search query and **press the Run button** to get 200+ search results in a couple of minutes.
 
