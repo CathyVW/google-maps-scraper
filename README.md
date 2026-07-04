@@ -275,7 +275,6 @@ Here's why it matters. Most people judge a product by its reviews. Your review h
 So I'll ask you a simple favor: will you help the next business owner find us? You won't get credit for it, but you'll make a real difference.
 
 If you will, please leave a review. Takes 60 seconds only, and I will personally thank you for it within 1 day. 
-<!-- TODO: MAKE VIDEO -->
 <!-- [ Video placeholder — Leave a Trustpilot review ] -->
 
 [https://www.trustpilot.com/review/omkar.cloud](https://www.trustpilot.com/review/omkar.cloud)
