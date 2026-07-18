@@ -1,21 +1,10 @@
 # Advanced FAQs
 
-Deep-dive answers for developers, power users, and anyone who wants to get the most out of the Google Maps Extractor. For the core "get customers" guide, see the [main README](README-new.md).
+Deep-dive answers for developers, power users, and anyone who wants to get the most out of the Google Maps Extractor. For the core "get customers" guide, see the [main README](README.md).
 
 ---
 
 ## Developers FAQs
-
-### How can I get results via API?
-
-If you are a developer and need to get results programmatically, we offer a dedicated **[Google Maps Extractor API](https://www.omkar.cloud/tools/google-maps-extractor-api)**. It's perfect for integrating Google Maps data directly into your applications or running automated jobs on virtual machines.
-
-The API includes all the features of our pro desktop app, including Unlimited searches and Unlimited devices, plus additional benefits:
-
-- REST API interface
-- Detailed documentation for AWS VM installation
-
-The API is available, and you can try it free at [Google Maps Extractor API](https://www.omkar.cloud/tools/google-maps-extractor-api).
 
 ### How did you build this extractor?
 
@@ -49,54 +38,6 @@ Learning Botasaurus Desktop takes about 25 minutes. If you do web scraping, it c
 ---
 
 ## App Specific FAQs
-
-### What are the various search strategies, and which one should I use?
-
-There are 5 kinds of search strategies:
-- Fast (Default)
-- Fastest
-- Detailed
-- By Zoom Level (15, 16, 17, 18)
-- By Geolocation
-
-![search-strategies.png](https://raw.githubusercontent.com/omkarcloud/google-maps-scraper/master/screenshots/search-strategies.png)
-
-Let's see when to use which strategy:
-
-**Fast (Default):**
-- Returns 120–1600 results per city.
-- Completes in 1–10 minutes per city.
-- **When to use:**
-  - Best for country-level extraction (completes in 1–2 days).
-
-**Fastest:**
-- Slightly faster than Fast mode (~30 seconds per city), but returns ~30–40 fewer results.
-- **When to use:**
-  - When speed is the top priority and a small reduction in results is acceptable.
-
-**Detailed:**
-- Returns more results than Fast mode, but takes significantly longer.
-- **When to use:**
-  - Best for single-city or state level extraction where thoroughness matters.
-- **When not to use:**
-  - Not recommended for country-level extraction due to high time requirements.
-  - Tip: Set "Max Results" to 1000 per city, otherwise large cities like New York can take 2+ hours.
-
-**By Zoom Level (15, 16, 17, 18):**
-- Various Zoom Level sizes are given below:
-  - Zoom 15: Neighborhood Level
-  - Zoom 16: Sub-Neighborhood Level
-  - Zoom 17: Block Level (Time consuming)
-  - Zoom 18: Street Level (Very time consuming)
-- **When to use:**
-  - When you want the absolute highest results. Use Zoom 18. It can take 3-4 hours, but you will have thousands of results for big cities like New York City.
-- **When not to use:**
-  - Not recommended for country level extraction. It can take 3-4 hours for a single city.
-
-**By Geolocation:**
-- Search a specific latitude/longitude or inside a polygon.
-- **When to use:**
-  - Getting results that are only in a specific area, but not outside it.
 
 ### How to use the Geolocation feature?
 
@@ -154,8 +95,7 @@ It can take 2-3 days to complete for countries with tens of thousands of cities,
 
 ### Are there any usage limits?
 
-The free version allows **200** searches per month. For unlimited searches, consider upgrading to the Pro Version:
-- Unlimited searches with a one-time purchase.
+The free version allows **200** searches per month. For more searches, consider upgrading to a paid plan — **Starter ($16/month, 5,000 searches)** or **Unlimited ($48/month, unlimited searches)**:
 - <details><summary><strong>50+ data points</strong> extracted in real-time. <strong>Click to see all</strong></summary>
 
   ## Place Fields
@@ -328,24 +268,24 @@ The free version allows **200** searches per month. For unlimited searches, cons
   - NEARBY_HOTELS
   </details>
 
-- One-time payment with lifetime updates and WhatsApp support.
-- Best of all? Zero risk, as we offer a generous 90-day, no-questions-asked refund guarantee.
+- WhatsApp support included.
+- Best of all? Zero risk — cancel anytime, plus a no-questions-asked, 2-click refund.
 
 ### How to get the Pro Version?
 
-Get the pro version, only when you exceed the free plan limit of **200** searches per month, because why pay when you don't need to, by following these steps:
+Upgrade only when you exceed the free plan limit of **200** searches per month, because why pay when you don't need to. Follow these steps:
 
 1. Create an account on Omkar Cloud by visiting [this link](https://www.omkar.cloud/auth/sign-up).
 ![Sign Up](https://raw.githubusercontent.com/omkarcloud/google-maps-scraper/master/screenshots/signup.png)
 
-2. Go to the [Google Maps Extractor Pricing Page](https://www.omkar.cloud/tools/google-maps-extractor?initial_tab=pricing) and make a one-time payment using PayPal or a credit/debit card.
+2. Go to the [Google Maps Extractor Pricing Page](https://www.omkar.cloud/tools/google-maps-extractor?initial_tab=pricing) and subscribe to the plan that fits you using PayPal or a credit/debit card.
 ![Pricing Page](https://raw.githubusercontent.com/omkarcloud/google-maps-scraper/master/screenshots/pricing.png)
 
 Note: Your payment details are handled exclusively by PayPal using industry-standard encryption. We have zero access to your card information — it's never shared with or stored on our systems.
 
 ![PayPal Secure](https://raw.githubusercontent.com/omkarcloud/google-maps-scraper/master/screenshots/paypal-secure.png)
 
-After payment, you'll see a link. Visiting the link will activate the Pro Version for a lifetime.
+After payment, you'll see a link. Visiting the link will activate your plan in the app.
 
 ![Purchase Success](https://raw.githubusercontent.com/omkarcloud/google-maps-scraper/master/screenshots/purchase-success.png)
 
@@ -470,7 +410,7 @@ There are 10s of Google Maps Scrapers on the Internet, some by brands bigger tha
 
 **Coming to Hard Facts:**
 - Tens of thousands of results per city with Zoom 18. Only 1-2 other brands can do this.
-- Unlimited searches for a lifetime. Other websites charge $28 for just 50 searches. Our free plan gives 200 searches, 4x more than them.
+- Cheapest per-lead cost in the market — we charge per search (each yielding 100–1000+ results), not per result. Our free plan gives 200 searches/month, 4x more than others.
 - Faster performance with lower bandwidth usage.
 - Easy to use — just open, enter query, start seeing results in a few seconds.
 - 50+ data points extracted, most in the market.
