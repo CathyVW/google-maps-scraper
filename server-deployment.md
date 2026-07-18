@@ -96,8 +96,10 @@ Now that your EC2 instance is ready, let's install your Botasaurus Desktop API.
 
 2. Next, install the desktop application on the EC2 instance.
 
+   To get your `AUTH_TOKEN`, sign up for a free account at [omkar.cloud](https://www.omkar.cloud) and visit [this page](https://www.omkar.cloud/tools/google-maps-extractor/about) and see the "What is my auth token?" FAQ, which gives you your auth token. Once you have your auth token, replace `AUTH_TOKEN` with your actual token in the command below.
+
    ```bash
-   python3 -m bota install-desktop-app --debian-installer-url https://google-maps-extractor-with-api-omkar-cloud.s3.amazonaws.com/Google+Maps+Extractor+Api-amd64.deb --custom-args "--auth-token {{ AUTH_TOKEN }}"
+   python3 -m bota install-desktop-app --debian-installer-url https://google-maps-extractor-with-api-omkar-cloud.s3.amazonaws.com/Google+Maps+Extractor+Api-amd64.deb --custom-args "--auth-token AUTH_TOKEN"
    ```
 
    ![Install scraper](https://raw.githubusercontent.com/omkarcloud/botasaurus/master/images/aws/install-desktop-scraper-ec2.gif)
